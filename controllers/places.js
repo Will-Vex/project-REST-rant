@@ -6,13 +6,13 @@ router.get('/', (req, res) => {
         city: 'Bikini Bottom',
         state: 'The Ocean',
         cuisines: 'Krabby Patty',
-        pic: 'https://upload.wikimedia.org/wikipedia/en/3/33/Krusty_Krab_230b.png'
+        pic: '/images/krusty-krab.webp'
       }, {
         name: 'A literal cat',
         city: 'various',
         state: 'various',
         cuisines: "Don't eat cats!",
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/kitty.jpg'
       }]
     res.render('places/index', { places })
 })
