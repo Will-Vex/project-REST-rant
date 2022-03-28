@@ -1,5 +1,6 @@
 const router = require('express').Router()
 
+
 router.get('/', (req, res) => {
     let places = [{
         name: 'Krusty Krab',
@@ -15,6 +16,10 @@ router.get('/', (req, res) => {
         pic: '/images/kitty.jpg'
       }]
     res.render('places/index', { places })
+})
+
+router.get('/new', (req, res) => {
+  res.render('places/new')
 })
 
 module.exports = router
