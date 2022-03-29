@@ -1,18 +1,18 @@
 h1 {
-    text-align: center;
-    color: cornflowerblue;
-  }
+  text-align: center;
+  color: cornflowerblue;
+}
 
 main {
-    text-align: center;
+  text-align: center;
 }
 
 #homepage-image {
-    max-width: 30%;
-    height: auto;
+  max-width: 30%;
+  height: auto;
 }
 
 .place-pic {
-    width: 20%;
-    height: auto;
+  width: 20%;
+  height: auto;
 }
