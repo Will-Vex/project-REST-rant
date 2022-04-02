@@ -20,8 +20,7 @@ function show(data) {
             <p>Not Rated</p>
             <h2>Description</h2>
             <p>
-              Located in {data.place.city}, {data.place.state}. Serving
-              {data.place.cuisines}.
+              Located in {data.place.city}, {data.place.state}. Serving {data.place.cuisines}.
             </p>
             <a href={`/places/${data.id}/edit`} className="btn btn-warning">
               Edit

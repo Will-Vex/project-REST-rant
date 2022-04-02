@@ -13,4 +13,4 @@ module.exports = [
     cuisines: "Don't eat cats!",
     pic: "/images/kitty.jpg",
   },
-];
+]; 
